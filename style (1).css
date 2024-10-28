@@ -1,0 +1,139 @@
+*
+{
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"
+}
+
+.mobile-container 
+{
+  background-color: #555;
+  color: white;
+  
+}
+
+.topnav {
+  /* top: 100%; */
+  width: 10%;
+  float: right;
+  background-color: #33333300;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: rgb(0, 0, 0);
+  /* background-color: black; */
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: gainsboro;
+  color: white;
+}
+
+.container {
+  padding: 50px 50px;
+  position: relative;
+  background-color: silver;
+  display: grid;
+}
+
+.container img
+{
+  margin-right:10px
+}
+
+.edu
+{
+  text-align:center;
+  padding: 30px 30px;
+  background-color: palevioletred;
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+
+.name
+{
+  font-size: 40px;
+  text-align: center;
+  margin-top: -1%;
+}
+
+.card
+{
+
+  border-radius: 5%;
+  position: relative;
+  margin-left: 50px;
+  margin-right: 10%;
+  width:260px;  text-align: center;
+  box-shadow: 0 42px 48px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+  
+}
+
+h2
+{
+ text-align: center;
+}
+
+footer
+{
+   text-align:center;
+   background-color: azure;
+}
+
+.grid-container
+{
+  background-color: black;
+}
+.items
+{
+  padding: 40px;
+  text-align: center;
+}
+
+.items img
+{
+  width:200px; 
+  height:200px;
+  margin:50px;
+}
+
+.Projects
+{
+ 
+ background-color: crimson;
+ padding:50px 150px;
+ 
+}
+
